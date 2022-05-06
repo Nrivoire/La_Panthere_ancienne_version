@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+    aspect-ratio: attr(width) / attr(height);
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
